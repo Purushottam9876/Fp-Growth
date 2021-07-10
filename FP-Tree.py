@@ -1,4 +1,3 @@
-
 import itertools
 class node:
     def __init__(self,name="",c=0,p=None):
@@ -62,11 +61,6 @@ def printTree(root):
 	    print("Node Name : "+ root.itemname)
 	    print("Count : ",root.count)
 	    print("Parent Node Name : "+root.parent.itemname)
-	    print("No. of Childs : ",len(root.childs))
-	    print("")
-	else:
-	    print("Node Name : NULL")
-	    print("Count : ",root.count)
 	    print("No. of Childs : ",len(root.childs))
 	    print("")
     for c in root.childs:
@@ -166,4 +160,3 @@ print(frequent_itemsets)
 #printTree(root)
 print("-----------------------------------------------------------------")
 print("--------------------------------------------------------")
-
